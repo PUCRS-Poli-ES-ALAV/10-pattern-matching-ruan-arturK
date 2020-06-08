@@ -19,7 +19,7 @@ Assim, se s1 = "ABCDCBDCBDACBDABDCBADF" e s1 = "ADF" o retorno seria 19.
 
 1. O algoritmo de Rubin-Karp utiliza uma função hash para resolver o problema de busca de padrões em string. O algoritmo está dado abaixo.
  
-´´´javascript
+```javascript
 private int search(String pat, String txt) {
    int M = pat.length();
    int N = txt.length();
@@ -32,12 +32,12 @@ private int search(String pat, String txt) {
    }
    return N; // nenhuma ocorrência
 }
-´´´
+```
 
 O hash pode ser calculado utilizando o algoritmo de Horner.
 Algoritmo de Horner para calcular o hash de uma string s[0..M-1]:
 
-´´´javascript
+```javascript
 //
 //Notação: o padrão tem M caracteres, o texto tem N caracteres, o alfabeto tem R caracteres  (0 … R−1) 
 //              Q é o módulo para o cálculo do Hash.
@@ -50,7 +50,7 @@ private long hash(String s, int M) {
       h = (h * R + s.charAt(j)) % Q;
    return h;
 }
-´´´
+```
 
 1. Implemente o algoritmo acima, para resolver o mesmo problema anterior.
   1. teste-o para strings grandes (>500.000 caracteres). Conte o número de iterações e de instruções.
