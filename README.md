@@ -12,7 +12,7 @@ Assim, se s1 = "ABCDCBDCBDACBDABDCBADF" e s1 = "ADF" o retorno seria 19.
 ## Enunciado 1
 
 1. Faça um algortimo que resolva o problema acima.
-   1. teste-o para strings grandes (>500.000 caracteres). Conte o número de iterações e de instruções.
+   1. teste-o para strings de diversos tamanhos, até strings grandes (>500.000 caracteres). Conte o número de iterações e de instruções.
    1. qual a complexidade, no pior caso?
 
 ## Enunciado 2
