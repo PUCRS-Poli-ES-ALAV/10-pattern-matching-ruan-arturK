@@ -53,5 +53,5 @@ private long hash(String s, int M) {
 ```
 
 1. Implemente o algoritmo acima, para resolver o mesmo problema anterior.
-  1. teste-o para strings grandes (>500.000 caracteres). Conte o número de iterações e de instruções.
-  1. qual a complexidade, no pior caso?
+   1. teste-o para strings grandes (>500.000 caracteres). Conte o número de iterações e de instruções.
+   1. qual a complexidade, no pior caso?
