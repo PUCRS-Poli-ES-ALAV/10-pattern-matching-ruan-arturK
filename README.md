@@ -53,7 +53,9 @@ private long hash(String s, int M) {
 ```
 
 3. Implemente o algoritmo acima, para resolver o mesmo problema anterior.
+
    3.1. teste-o para strings grandes (>500.000 caracteres). Conte o número de iterações e de instruções.
+   
    3.2. qual a complexidade, no pior caso?
 
 ## Enunciado 3
@@ -132,5 +134,7 @@ class KMP_String_Matching {
 5. Implemente o algoritmo acima, para resolver o mesmo problema anterior.
 
    5.1. Teste-o para strings grandes (>500.000 caracteres); 
+   
    5.2. Conte o número de iterações e de instruções.
+   
 Qual a complexidade, no pior caso?
