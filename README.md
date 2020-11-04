@@ -130,6 +130,7 @@ class KMP_String_Matching {
 ```
 
 5. Implemente o algoritmo acima, para resolver o mesmo problema anterior.
+
    5.1. Teste-o para strings grandes (>500.000 caracteres); 
    5.2. Conte o número de iterações e de instruções.
 Qual a complexidade, no pior caso?
