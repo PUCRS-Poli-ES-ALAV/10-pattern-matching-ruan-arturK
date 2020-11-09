@@ -17,7 +17,7 @@ Assim, se s1 = "ABCDCBDCBDACBDABDCBADF" e s1 = "ADF" o retorno seria 19.
 
 ## Enunciado 2
 
-2. O algoritmo de Rubin-Karp utiliza uma função hash para resolver o problema de busca de padrões em string. O algoritmo está dado abaixo.
+2. O algoritmo de Rabin-Karp utiliza uma função hash para resolver o problema de busca de padrões em string. O algoritmo está dado abaixo.
  
 ```javascript
 private int search(String pat, String txt) {
