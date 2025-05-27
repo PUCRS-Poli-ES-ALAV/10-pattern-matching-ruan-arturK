@@ -14,6 +14,8 @@ Assim, se s1 = "ABCDCBDCBDACBDABDCBADF" e s1 = "ADF" o retorno seria 19.
 1. Faça um algortimo que resolva o problema acima.
    1. teste-o para strings de diversos tamanhos, até strings grandes (ambas as strings >500.000 caracteres). Conte o número de iterações e de instruções.
    1. qual a complexidade, no pior caso?
+  
+      O(n⋅m). Onde n é o tamanho da string principal (s1) e m é o tamanho do padrão (s2).
 
 ## Enunciado 2
 
